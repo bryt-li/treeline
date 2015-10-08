@@ -1,0 +1,73 @@
+body {
+    font-family: Helvetica, Arial;
+}
+
+.highlighted
+{
+    font-weight:bold;
+    text-decoration:underline;
+}
+#article #title
+{
+	text-align:center;
+	font-size:2em;
+	font-weight:bolder;
+}
+
+#article #subtitle
+{
+	text-align:center;
+	font-size:1em;
+}
+
+
+#article p
+{
+    text-indent:2em;
+    line-height:1.5em;
+}
+
+#article h1
+{
+    
+}
+
+#article h2
+{
+    text-indent:20px;
+}
+
+#article h3
+{
+    text-indent:20px;
+}
+
+#article h4
+{
+    text-indent:20px;
+}
+
+#article li
+{
+    margin-left:2em;
+    line-height:1.5em;
+}
+
+#article .underline-strong
+{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.diagram
+{
+	text-align:center;
+}
+
+.diagram span
+{
+    display:block;
+	font-weight:bold;
+    margin:0 auto 1em auto;
+}
+

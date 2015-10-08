@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ROOT item="y" tlversion="1.4.1"
+line0="{*Name*}"
+line1="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;"
+line2="&lt;html&gt;"
+line3="&lt;head&gt;"
+line4="&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;"
+line5="&lt;title&gt;{*Name*}&lt;/title&gt;"
+line6="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;./html_article/css/default.css&quot; /&gt;"
+line7="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;screen&quot; href=&quot;./html_article/css/default-screen.css&quot; /&gt;"
+line8="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;print&quot; href=&quot;./html_article/css/default-print.css&quot; /&gt;"
+line9="&lt;/head&gt;"
+line10="&lt;body&gt;"
+line11="&lt;div class=&quot;toc&quot;&gt;"
+line12="&lt;/div&gt;"
+line13="&lt;div id=&quot;article&quot;&gt;"
+line14="{*DescendantOutput*}"
+line15="&lt;/div&gt;"
+line16="&lt;script src=&quot;./html_article/js/jquery.js&quot;&gt;&lt;/script&gt;"
+line17="&lt;script src=&quot;./html_article/js/toc.js&quot;&gt;&lt;/script&gt;"
+line18="&lt;script&gt;"
+line19="var segments = [];"
+line20="$(':header').each(function() {"
+line21="var level = parseInt(this.nodeName.substring(1), 10);"
+line22="if(segments.length == level) {"
+line23="// from Hn to another Hn, just increment the last segment"
+line24="segments[level-1]++;"
+line25="} else if(segments.length &gt; level) {"
+line26="// from Hn to Hn-x, slice off the last x segments, and increment the last of the remaining"
+line27="segments = segments.slice(0, level);"
+line28="segments[level-1]++;"
+line29="} else if(segments.length &lt; level) {"
+line30="// from Hn to Hn+x, (should always be Hn+1, but I'm doing some error checks anyway)"
+line31="// add '1' x times."
+line32="for(var i = 0; i &lt; (level-segments.length); i++) {"
+line33="segments.push(1);"
+line34="}"
+line35="}"
+line36="$(this).text(segments.join('.') + '. ' + $(this).text());"
+line37="});"
+line38="$('.toc').toc({"
+line39="'selectors': 'h1,h2,h3', //elements to use as headings"
+line40="'container': '#article', //element to find all selectors in"
+line41="'smoothScrolling': true, //enable or disable smooth scrolling on click"
+line42="'prefix': 'toc', //prefix for anchor tags and class names"
+line43="'onHighlight': function(el) {}, //called when a new section is highlighted"
+line44="'highlightOnScroll': true, //add class to heading that is currently in focus"
+line45="'highlightOffset': 100, //offset to trigger the next headline"
+line46="'anchorName': function(i, heading, prefix) { //custom function for anchor name"
+line47="return prefix+i;"
+line48="},"
+line49="'headerText': function(i, heading, $heading) { //custom function building the header-item text"
+line50="return $heading.text();"
+line51="},"
+line52="'itemClass': function(i, heading, $heading, prefix) { // custom function for item class"
+line53="return $heading[0].tagName.toLowerCase();"
+line54="}"
+line55="});"
+line56="&lt;/script&gt;"
+line57="&lt;/body&gt;"
+line58="&lt;/html&gt;"
+childtype="h1"
+icon="doc">
+<Name type="Text" ref="y">title</Name>
+<p-ol item="n"
+line0="{*Name*}"
+line1="&lt;p&gt;{*Name*}&lt;p&gt;"
+line2="&lt;ol&gt;"
+line3="{*DescendantOutput*}"
+line4="&lt;/ol&gt;">
+<Name type="Text" ref="y"></Name>
+</p-ol>
+<subtitle item="n"
+line0="{*Name*}"
+line1="&lt;div id=&quot;subtitle&quot;&gt;{*Name*}&lt;/div&gt;"
+icon="minus">
+<Name type="Text" ref="y"></Name>
+</subtitle>
+<title item="n"
+line0="{*Name*}"
+line1="&lt;div id=&quot;title&quot;&gt;{*Name*}&lt;/div&gt;"
+icon="text">
+<Name type="Text" ref="y"></Name>
+</title>
+<h2 item="n"
+line0="{*Name*}"
+line1="&lt;h2&gt;{*Name*}&lt;/h2&gt;"
+icon="title-2">
+<Name type="Text" ref="y"></Name>
+</h2>
+<h3 item="n"
+line0="{*Name*}"
+line1="&lt;h3&gt;{*Name*}&lt;/h3&gt;"
+icon="title-3">
+<Name type="Text" ref="y"></Name>
+</h3>
+<h1 item="n"
+line0="{*Name*}"
+line1="&lt;h1&gt;{*Name*}&lt;/h1&gt;"
+icon="title-1">
+<Name type="Text" ref="y"></Name>
+</h1>
+<p-ul item="n"
+line0="{*Name*}"
+line1="&lt;p&gt;{*Name*}&lt;p&gt;"
+line2="&lt;ul&gt;"
+line3="{*DescendantOutput*}"
+line4="&lt;/ul&gt;">
+<Name type="Text" ref="y"></Name>
+</p-ul>
+<h4 item="n"
+line0="{*Name*}"
+line1="&lt;h4&gt;{*Name*}&lt;/h4&gt;"
+icon="bullet_3">
+<Name type="Text" ref="y"></Name>
+</h4>
+<h5 item="n"
+line0="{*Name*}"
+line1="&lt;h5&gt;{*Name*}&lt;/h5&gt;">
+<Name type="Text" ref="y"></Name>
+</h5>
+<diagram item="n"
+line0="{*Name*}"
+line1="&lt;div class=&quot;diagram&quot;&gt;"
+line2="&lt;img alt=&quot;{*Name*}&quot; src=&quot;{*Src*}&quot; style=&quot;{*Style*}&quot;/&gt;"
+line3="&lt;span&gt;{*Name*}&lt;/span&gt;"
+line4="&lt;/div&gt;"
+icon="colors">
+<Name type="Text" ref="y"></Name>
+<Src type="Text"></Src>
+<Style type="Text"></Style>
+</diagram>
+<hr item="n"
+line0="{*Name*}"
+line1="&lt;hr style=&quot;{*Style*}&quot; class=&quot;{*Class*}&quot;/&gt;">
+<Name type="Text" ref="y"></Name>
+<Class type="Text"></Class>
+<Style type="Text"></Style>
+</hr>
+<paragraph item="n"
+line0="{*Name*}"
+line1="&lt;p&gt;{*Content*}&lt;/p&gt;"
+icon="paragraph">
+<Name type="Text" html="y" ref="y"></Name>
+<Content type="Text" lines="50"></Content>
+</paragraph>
+<listed-paragraph item="n"
+line0="{*Name*}"
+line1="&lt;li class=&quot;listed-paragraph&quot;&gt;&lt;span style=&quot;{*Style*}&quot;&gt;{*Name*}&lt;/span&gt;&lt;p&gt;{*Content*}&lt;/p&gt;&lt;/li&gt;">
+<Name type="Text" ref="y"></Name>
+<Style type="Text"></Style>
+<Content type="Text" lines="40"></Content>
+</listed-paragraph>
+<NA item="n"
+line0="{*Name*}">
+<Name type="Text" ref="y"></Name>
+</NA>
+<div item="n"
+line0="{*Name*}"
+line1="&lt;div class=&quot;{*Class*}&quot; style=&quot;{*Style*}&quot;&gt;"
+line2="{*DescendantOutput*}"
+line3="&lt;/div&gt;">
+<Name type="Text" ref="y"></Name>
+<Class type="Text"></Class>
+<Style type="Text"></Style>
+</div>
+<li item="n"
+line0="{*Name*}"
+line1="&lt;li&gt;{*Name*}&lt;/li&gt;">
+<Name type="Text" ref="y"></Name>
+</li>
+<ul item="n"
+line0="{*Name*}"
+line1="&lt;ul&gt;"
+line2="{*DescendantOutput*}"
+line3="&lt;/ul&gt;"
+icon="folder_2">
+<Name type="Text" ref="y"></Name>
+</ul>
+</ROOT>

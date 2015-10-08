@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml">
+
+<w:styles>
+
+<w:latentStyles w:defLockedState="off" w:latentStyleCount="2">
+
+<w:lsdException w:name="Normal"/>
+
+<w:lsdException w:name="Default Paragraph Font"/>
+
+</w:latentStyles>
+
+<w:style w:type="paragraph" w:default="on" w:styleId="a"><w:name w:val="Normal"/><wx:uiName wx:val="正常"/><w:pPr><w:widowControl w:val="off"/><w:jc w:val="both"/></w:pPr><w:rPr><wx:font wx:val="Times New Roman"/><w:lang w:val="EN-US" w:fareast="ZH-CN" w:bidi="AR-SA"/></w:rPr></w:style>
+
+<w:style w:type="character" w:default="on" w:styleId="a0"><w:name w:val="Default Paragraph Font"/><wx:uiName wx:val="默认段落字体"/></w:style>
+
+<w:style w:type="paragraph" w:styleId="lx_paragraph"><w:name w:val="lx_段落"/><w:basedOn w:val="a"/><w:next w:val="a"/><w:rsid w:val="00045226"/><w:rPr><wx:font wx:val="Times New Roman"/></w:rPr></w:style>
+
+</w:styles>
+
+<w:body>
+
+
+
+<w:p>
+
+<w:pPr><w:pStyle w:val="lx_paragraph"/></w:pPr>
+
+<w:r><w:t>我是一个段落。里面有英文的English.但是显示很正常。</w:t></w:r>
+
+</w:p>
+
+
+
+</w:body>
+
+</w:wordDocument>
+

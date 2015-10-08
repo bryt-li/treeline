@@ -1,0 +1,41 @@
+#article { 
+    margin: 0 45px 300px 300px;
+}
+
+.toc {
+    background: #fefefe;
+    width: 280px;
+    position: fixed;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.toc a {
+    color: #333;
+    text-decoration:none;
+}
+
+.toc ul
+{
+    margin:0.7em;
+    padding:0;
+}
+
+.toc .h1 {
+    margin-left: 0;
+    list-style-type:none;
+}
+.toc .h2 {
+    margin-left: 2em;
+    list-style-type:none;
+}
+.toc .h3 {
+    margin-left: 4em;
+    list-style-type:none;
+}
+
+.toc-active a{
+    color: red;
+    font-weight: bold;
+    text-decoration:underline;
+}

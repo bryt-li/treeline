@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ROOT item="y" tlversion="1.4.1"
+line0="{*Name*}"
+line1="{*Name*}"
+childtype="DEFAULT">
+<Name type="Text" ref="y">Title</Name>
+<Heading1 item="y"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="title-1">
+<Name type="Text" ref="y">课程介绍</Name>
+<Heading2 item="y"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="title-2">
+<Name type="Text" ref="y">课程目标</Name>
+<Paragraph item="y"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="paragraph">
+<Name type="Text" html="y" lines="20" ref="y">本课程介绍计算机网络与通信相关知识，包括网际互联与路由、网络资源与流量管理和网络通信与服务三个教学模块，详细介绍IP协议、RIP/OSPF单播路由协议、PIM组播路由协议、TCP协议、终端和网络端的拥塞控制机制、P2P网络和应用层Overlay网络，同时包括移动网络、无线网络和Ad-hoc自组织网络相关知识和前沿发展的介绍。</Name>
+</Paragraph>
+</Heading2>
+<Heading2 item="y">
+<Name>参课要求</Name>
+<Paragraph-List item="y"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="paragraph-list">
+<Name type="Text" html="y" lines="20" ref="y">参加本次课程的学员须具备以下能力：</Name>
+<ListItem item="y"
+line0="{*Name*}"
+line1="{*Name*}">
+<Name type="Text" ref="y">熟练操作Windows系统，了解并能使用常用的Linux命令；</Name>
+</ListItem>
+<ListItem item="y">
+<Name>能使用各种编译器在Windows/Linux环境下进行C/C++程序的编译链接等简单操作；能撰写makefile自动化构建简单应用；</Name>
+</ListItem>
+<ListItem item="y">
+<Name>熟练使用vim、emacs、nano等文本编辑器其中的一种，或者Windows平台下任意的集成开发环境或文本编辑器（VC++、Dev-cpp、Eclipse或Notepad等）</Name>
+</ListItem>
+<ListItem item="y">
+<Name>本次课程中出现的大部分示例程序均使用C/C++语言进行讲解，所以学员需拥有一定的C/C++语言基础；</Name>
+</ListItem>
+</Paragraph-List>
+</Heading2>
+<Heading2 item="y">
+<Name>授课形式与环境</Name>
+<Paragraph-List item="y">
+<Name>本课程采用老师课堂讲授重要知识点，期间穿插引导学员动手编程完成课后项目作业开发的教学形式，课程中出现的实践项目的采用软硬件环境如下：</Name>
+<ListItem item="y">
+<Name>操作系统：GNU/Linux 2.6+（建议使用Redhat AS 5+或Ubuntu 12.04 LTS、Fedora 6）；Windows XP或以上</Name>
+</ListItem>
+<ListItem item="y">
+<Name>编译器：GCC v4.1+、GDB v7.0+、VC++6或以上、MinGW/Cygwin</Name>
+</ListItem>
+<ListItem item="y">
+<Name>开发环境：可使用任意文本编辑器或集成开发环境（IDE）如：Eclipse CDT/VC++/Dev-cpp/Emacs/Vim/Notepad/UltraEdit/...等等</Name>
+</ListItem>
+</Paragraph-List>
+</Heading2>
+<Heading2 item="y">
+<Name>考核方式</Name>
+<Paragraph-List item="y">
+<Name>根据以下三个方面的综合表现评定最终课程分数：</Name>
+<ListItem item="y">
+<Name>到课率：占20％</Name>
+</ListItem>
+<ListItem item="y">
+<Name>实践环节项目作业完成情况：占30％</Name>
+</ListItem>
+<ListItem item="y">
+<Name>考试成绩：占50％</Name>
+</ListItem>
+</Paragraph-List>
+</Heading2>
+<Heading2 item="y">
+<Name>参考资料</Name>
+<Paragraph item="y">
+<Name>本课程推荐阅读以下参考资料：</Name>
+</Paragraph>
+<Paragraph-List item="y">
+<Name>网络体系结构与路由方向：</Name>
+<ListItem item="y">
+<Name>Cerf, V., and R. Kahn. &quot;A Protocol for Packet Network Interconnection.&quot; IEEE Transactions on Communications COM-22 (1974): 637-648.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Clark, D. &quot;Design Philosophy of the DARPA Internet Protocol.&quot; Proc ACM SIGCOMM (August 1988): 106-114. Stanford, CA.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Hinden, R. &quot;IP Next Generation Overview.&quot; Comm of the ACM 39, no. 6 (June 1996): 61-71.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Bellovin, Steven M. &quot;Security Problems in the TCP/IP Protocol Suite (PDF).&quot; Computer Communications Review 2, no. 19 (April 1989): 32-48.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>TCP/IP详解，W.Richard Stevens，机械工业出版社，2000-4-1</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Paxson, V. &quot;End-to-End Routing Behavior in the Internet.&quot; IEEE/ACM Transactions on Networking 5, no. 5 (October 1997): 601-615.</Name>
+</ListItem>
+</Paragraph-List>
+<Paragraph-List item="y">
+<Name>网络资源与流量管理方向：</Name>
+<ListItem item="y">
+<Name>Floyd, S., and V. Jacobson. &quot;Random Early Detection Gateways for Congestion Avoidance.&quot; IEEE/ACM Transactions on Networking 1, no. 4 (August 1993): 397-413.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Katabi, D., M. Handley, and C. Rohrs. &quot;Congestion control for high bandwidth-delay product networks.&quot; Proc ACM SIGCOMM (August 2002). Pittsburgh, PA.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Demers, A., S. Keshav, and S. Shenker. &quot;Analysis and Simulation of a Fair Queueing Algorithm.&quot; Internetworking: Research and Experience 1, no. 1 (1990): 3-26. (If you like, you may also read the slightly older SIGCOMM '89 version.)</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Stoica, I., S. Shenker, and H. Zhang. &quot;Core - Stateless Fair Queueing: Achieving Approximately Fair Allocations in High Speed Networks.&quot; Proc ACM SIGCOMM (September 1998). Vancouver, Canada. ASIN: B0006R9W38.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>ung, J., E. Sit, H. Balakrishnan, and R. Morris. &quot;DNS Performance and the Effectiveness of Caching.&quot; Proc ACM SIGCOMM Internet Measurement Workshop (November 2001). San Francisco, CA.</Name>
+</ListItem>
+</Paragraph-List>
+<Paragraph-List item="y">
+<Name>网络通信与服务方向：</Name>
+<ListItem item="y">
+<Name>Maufer, T., and C. Semeria. &quot;Introduction to IP Multicast Routing.&quot; Internet-Draft, July 1997.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Andersen, D., H. Balakrishnan, M. Kaashoek, and R. Morris. &quot;Resilient Overlay Networks.&quot; Proc 18th ACM SOSP (October 2001). Banff, Canada.</Name>
+</ListItem>
+<ListItem item="y">
+<Name>Broch, J., D. Maltz, D. Johnson, Y. C. Hu, and J. Jetcheva. &quot;A Performance Comparison of Multi-Hop Wireless Ad Hoc Routing Protocols.&quot; Proc ACM MOBICOM (August 1998). Dallas, TX.</Name>
+</ListItem>
+</Paragraph-List>
+</Heading2>
+</Heading1>
+<Direction item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+childtype="Course"
+icon="misc">
+<Name type="Text" ref="y"></Name>
+</Direction>
+<Level item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+childtype="Course"
+icon="folder_2">
+<Name type="Text" ref="y"></Name>
+</Level>
+<DEFAULT item="n"
+line0="{*Name*}"
+line1="{*Name*}">
+<Name type="Text" ref="y"></Name>
+</DEFAULT>
+<Xetex item="n"
+line0="{*Name*}"
+line1="{*Script*}">
+<Name type="Text" ref="y"></Name>
+<Script type="Text" lines="10"></Script>
+</Xetex>
+<Module item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+childtype="Lesson"
+icon="folder_3">
+<Id type="Text"></Id>
+<Name type="Text" ref="y"></Name>
+</Module>
+<Course item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+childtype="Module"
+icon="gear">
+<Id type="Text"></Id>
+<Name type="Text" ref="y"></Name>
+</Course>
+<LessonProjectList item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="round_minus">
+<Name type="Text" ref="y"></Name>
+</LessonProjectList>
+<ModuleLessonHourTable item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+icon="round_minus">
+<Name type="Text" ref="y"></Name>
+</ModuleLessonHourTable>
+<Lesson item="n"
+line0="{*Name*}"
+line1="{*Name*}"
+line2="\par{{*Intro*}}"
+icon="clock">
+<Id type="Text"></Id>
+<Name type="Text" ref="y"></Name>
+<Hours type="Number" format="###"></Hours>
+<Intro type="Text" html="y" lines="10"></Intro>
+<Assignment type="Text" html="y" lines="6"></Assignment>
+<Script type="Text" html="y" lines="20"></Script>
+</Lesson>
+</ROOT>

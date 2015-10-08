@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ROOT item="y" tlversion="1.4.1"
+line0="{*Name*}"
+line1="&lt;?xml version=&quot;1.0&quot;?&gt;"
+line2="&lt;w:wordDocument xmlns:w=&quot;http://schemas.microsoft.com/office/word/2003/wordml&quot;&gt;"
+line3="&lt;w:styles&gt;"
+line4="&lt;w:latentStyles w:defLockedState=&quot;off&quot; w:latentStyleCount=&quot;2&quot;&gt;"
+line5="&lt;w:lsdException w:name=&quot;Normal&quot;/&gt;"
+line6="&lt;w:lsdException w:name=&quot;Default Paragraph Font&quot;/&gt;"
+line7="&lt;/w:latentStyles&gt;"
+line8="&lt;w:style w:type=&quot;paragraph&quot; w:default=&quot;on&quot; w:styleId=&quot;a&quot;&gt;&lt;w:name w:val=&quot;Normal&quot;/&gt;&lt;wx:uiName wx:val=&quot;正常&quot;/&gt;&lt;w:pPr&gt;&lt;w:widowControl w:val=&quot;off&quot;/&gt;&lt;w:jc w:val=&quot;both&quot;/&gt;&lt;/w:pPr&gt;&lt;w:rPr&gt;&lt;wx:font wx:val=&quot;Times New Roman&quot;/&gt;&lt;w:lang w:val=&quot;EN-US&quot; w:fareast=&quot;ZH-CN&quot; w:bidi=&quot;AR-SA&quot;/&gt;&lt;/w:rPr&gt;&lt;/w:style&gt;"
+line9="&lt;w:style w:type=&quot;character&quot; w:default=&quot;on&quot; w:styleId=&quot;a0&quot;&gt;&lt;w:name w:val=&quot;Default Paragraph Font&quot;/&gt;&lt;wx:uiName wx:val=&quot;默认段落字体&quot;/&gt;&lt;/w:style&gt;"
+line10="&lt;w:style w:type=&quot;paragraph&quot; w:styleId=&quot;lx_paragraph&quot;&gt;&lt;w:name w:val=&quot;lx_段落&quot;/&gt;&lt;w:basedOn w:val=&quot;a&quot;/&gt;&lt;w:next w:val=&quot;a&quot;/&gt;&lt;w:rsid w:val=&quot;00045226&quot;/&gt;&lt;w:rPr&gt;&lt;wx:font wx:val=&quot;Times New Roman&quot;/&gt;&lt;/w:rPr&gt;&lt;/w:style&gt;"
+line11="&lt;/w:styles&gt;"
+line12="&lt;w:body&gt;"
+line13="{*DescendantOutput*}"
+line14="&lt;/w:body&gt;"
+line15="&lt;/w:wordDocument&gt;"
+childtype="DEFAULT">
+<Name type="Text" ref="y">Main</Name>
+<Paragraph item="y"
+line0="{*Name*}"
+line1="&lt;w:p&gt;"
+line2="&lt;w:pPr&gt;&lt;w:pStyle w:val=&quot;lx_paragraph&quot;/&gt;&lt;/w:pPr&gt;"
+line3="&lt;w:r&gt;&lt;w:t&gt;{*Para*}&lt;/w:t&gt;&lt;/w:r&gt;"
+line4="&lt;/w:p&gt;">
+<Name type="Text" ref="y">New</Name>
+<Para type="Text" lines="10">我是一个段落。里面有英文的English.但是显示很正常。</Para>
+</Paragraph>
+<DEFAULT item="n"
+line0="{*Name*}"
+line1="{*Name*}">
+<Name type="Text" ref="y"></Name>
+</DEFAULT>
+</ROOT>
